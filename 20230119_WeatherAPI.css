@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Futura";
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+  text-align: center;
+  color: bisque;
+  
+}
+
+p {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 0.1rem;
+  text-align: center;
+  color: bisque;
+  
+}
+
+header {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("weatherbackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  color: white;
+}
+
+main {
+  flex: 1 1 0%;
+  padding: 2rem 1rem;
+  max-width: 500px;
+  max-height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(213, 171, 118, 0.3);
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.weather-display h2 {
+  font-size: 2rem;
+  font-weight: 250;
+  text-align: center;
+  color: bisque;
+  margin-bottom: 1rem;
+
+}
+.container{
+  display: grid;
+  justify-content: center;
+  color: white;
+}
+
+.displayWeather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Futura', sans-serif;
+}
